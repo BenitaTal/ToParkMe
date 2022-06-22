@@ -37,7 +37,7 @@ and more.
         
  There is 16 short videos (the longest is 1:30).
  
-        Youtube:
+ Youtube:
         
 1.
 
@@ -76,7 +76,7 @@ https://youtube.com/shorts/mfLBdQjr8KE?feature=share
 https://youtube.com/shorts/-p1M537S26g?feature=share
 
 
-        Drive:
+Drive:
         
 The link will take you to a videos folder, where each video has a name that describes the content.
 
