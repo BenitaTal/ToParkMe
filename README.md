@@ -47,11 +47,10 @@ I add the chat, which in my opinion is much better.
 
         Problems:
         
-1.
-The phone that i used have many problem, for example the exact location of the phone some times work and some times does not 
+1.The phone that i used have many problem, for example the exact location of the phone some times work and some times does not 
 (you can notice from the videos).
-2.
-The phone has a reflections of the apps in the background all the time (you can notice from the videos).
+
+2.The phone has a reflections of the apps in the background all the time (you can notice from the videos).
 
 
 
