@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ToParkMe.activities.Activity_Home"
+    android:keepScreenOn="true">
+
+    <ImageView
+        android:id="@+id/park_IMG_background_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.6"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            >
+
+
+            <ImageView
+                android:id="@+id/park_profile_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="-20dp"
+                android:layout_marginEnd="15dp"
+                android:src="@drawable/ic_person_img"
+                >
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/park_waze_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="30dp"
+
+                android:src="@drawable/ic_waze">
+
+            </ImageView>
+
+
+            <ImageView
+                android:id="@+id/park_setting_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="5dp"
+                android:src="@drawable/ic_baseline_location_on_24">
+
+
+            </ImageView>
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:orientation="horizontal"
+            android:background="@drawable/ic_border"
+
+            >
+
+            <EditText
+                android:id="@+id/park_search_home_et"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="@color/white"
+                android:hint="חיפוש"
+                android:inputType="text"
+                android:gravity="right|bottom"
+
+                >
+            </EditText>
+
+            <ImageView
+                android:id="@+id/park_search_home_iv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:src="@drawable/ic_search_img">
+
+            </ImageView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="7"
+            android:background="@color/teal_200">
+
+
+
+            <FrameLayout
+                android:id="@+id/park_map_fl"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="5dp"
+                android:layout_weight="4"
+                android:background="#45454545"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            >
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/park_question_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="צאט"
+                app:cornerRadius="50dp"
+
+                >
+
+            </com.google.android.material.button.MaterialButton>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/park_favorite_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="100dp"
+                android:text="חניה פנויה"
+                app:cornerRadius="50dp"
+
+                >
+
+            </com.google.android.material.button.MaterialButton>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

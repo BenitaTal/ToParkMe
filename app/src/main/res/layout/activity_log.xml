@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ToParkMe.activities.Activity_Home"
+    android:keepScreenOn="true"
+    >
+
+    <ImageView
+        android:id="@+id/park_IMG_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        >
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|top"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/park_log_Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp"
+            android:text="ברוכים הבאים    ל- 2ParkMe"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"
+            android:textSize="40sp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/park_log_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:hint="אימייל"
+            android:inputType="textWebEmailAddress"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/park_log_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="50dp"
+            android:gravity="center"
+            android:hint="סיסמא"
+            android:inputType="textWebPassword"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white">
+
+        </EditText>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/park_Btn_log_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="התחברות"
+            app:cornerRadius="50dp"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/park_Btn_auth_sign_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="הרשמה"
+            app:cornerRadius="50dp"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/park_Btn_auth_change_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="איפוס סיסמא"
+            app:cornerRadius="50dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
