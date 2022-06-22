@@ -35,10 +35,7 @@ and more.
         
         Videos:
         
-The link will take you to a videos folder, each video has a name that contains a few words about its content.
-
-https://drive.google.com/drive/u/1/folders/1vkO9_u7YmOHurqguyfyBNf5WeagZ_EKQ
-
+https://youtube.com/shorts/by5Q6WC1zYM?feature=share
 
         Changes:
         
