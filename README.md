@@ -27,28 +27,34 @@
 
 9.Login with Email , email verification when registered , password reset.
 
+10.New icon for the app.
+
 and more.
 
 
         
         Videos:
         
-1.
+The link will take you to a videos folder, each video has a name that contains a few words about its content.
 
-https://drive.google.com/file/d/1r8rXlLIDGdsoz_yCVabxj01RoK6miqaS/view?usp=sharing
-
-2.
-
-https://drive.google.com/file/d/1rMykleksvrh66lW3Kzmh4tBG9FqNYGay/view?usp=sharing
+https://drive.google.com/drive/u/1/folders/1vkO9_u7YmOHurqguyfyBNf5WeagZ_EKQ
 
 
-
-        Pictures:
+        Changes:
         
-I had a problem that i couldnt resolve, so i comment 8 rows for the app to run.
+There are some changes from the presentation of the app at the beginning, I changed the design to make it look better.
+I add the chat, which in my opinion is much better.
 
-The app can not take location from my phone.
+        Problems:
+        
+1.
+The phone that i used have many problem, for example the exact location of the phone some times work and some times does not 
+(you can notice from the videos).
+2.
+The phone has a reflections of the apps in the background all the time (you can notice from the videos).
 
-I think the problem is the connection between java's class to my app. 
+
+
+        
 
 
