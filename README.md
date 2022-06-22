@@ -35,6 +35,8 @@ and more.
         
         Videos:
         
+ There is 16 short videos (the longest is 1:30).
+ 
         youtube:
         
 https://youtube.com/shorts/by5Q6WC1zYM?feature=share
