@@ -96,6 +96,8 @@ I add the chat, which in my opinion is much better.
 
 2.The phone has a reflections of the apps in the background all the time (you can notice from the videos).
 
+3.I kept my callBack class and function, but it does not work in my phone, i had the same problem at HW2 with the game and the sensor.
+
 
 
 
