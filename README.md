@@ -98,6 +98,8 @@ I add the chat, which in my opinion is much better.
 
 3.I kept my callBack class and function, but it does not work in my phone, i had the same problem at HW2 with the game and the sensor.
 
+4.For some reason i could not put the Authentication in a separated class, it just wont work, so i just kept it like that.
+
 
 
 
