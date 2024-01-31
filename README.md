@@ -84,23 +84,6 @@ https://drive.google.com/drive/folders/19DNvc_mpcFCGmQkV4rdqHYYKlZp_Wqsd?usp=sha
 
 
 
-        Changes:
-        
-There are some changes from the presentation of the app at the beginning, I changed the design to make it look better.
-I add the chat, which in my opinion is much better.
-
-        Problems:
-        
-1.The phone that i used have many problem, for example the exact location of the phone some times work and some times does not 
-(you can notice from the videos).
-
-2.The phone has a reflections of the apps in the background all the time (you can notice from the videos).
-
-3.I kept my callBack class and function, but it does not work in my phone, i had the same problem at HW2 with the game and the sensor.
-
-4.For some reason i could not put the Authentication in a separated class, it just wont work, so i just kept it like that.
-
-
 
 
         
